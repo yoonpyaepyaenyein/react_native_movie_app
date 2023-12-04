@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Svg, {Circle, Path} from 'react-native-svg';
-import {palette} from '../../src/theme/colors';
+import {palette} from '../../src/utils/theme/colors';
 const SearchIcon = props => (
   <Svg
     xmlns="http://www.w3.org/2000/svg"

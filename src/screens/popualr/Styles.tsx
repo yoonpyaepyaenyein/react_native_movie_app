@@ -3,7 +3,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import {palette} from '../../theme/colors';
+import {palette} from '../../utils/theme/colors';
 
 const styles = StyleSheet.create({
   container: {
@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
     fontSize: wp(4),
     marginLeft: hp(2),
     marginTop: hp(2),
+    color: palette.white,
   },
   contentContainer: {
     // paddingTop: hp(2),
@@ -31,6 +32,12 @@ const styles = StyleSheet.create({
   icon: {
     marginLeft: hp(2),
     marginTop: hp(2),
+  },
+  showMoreBtn: {
+    alignSelf: 'center',
+    alignItems: 'center',
+    fontFamily: 'Poppins-Regular',
+    marginBottom: hp(2),
   },
 });
 

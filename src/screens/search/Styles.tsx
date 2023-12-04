@@ -3,7 +3,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import {palette} from '../../theme/colors';
+import {palette} from '../../utils/theme/colors';
 
 const styles = StyleSheet.create({
   container: {
@@ -18,10 +18,11 @@ const styles = StyleSheet.create({
     borderRadius: wp(1.8),
     paddingHorizontal: hp(1),
     flexDirection: 'row',
+    justifyContent: 'space-between',
     // alignItems: 'center',
   },
   input: {
-    width: wp(80),
+    width: wp(60),
     height: hp(5),
     // backgroundColor: 'red',
     marginLeft: hp(5),
@@ -48,7 +49,7 @@ const styles = StyleSheet.create({
   },
   movieTitle: {
     fontFamily: 'Poppins-SemiBold',
-    fontSize: wp(4),
+    fontSize: wp(3.2),
     color: palette.white,
     // alignContent: 'flex-start',
     // alignSelf: 'flex-start',
@@ -59,6 +60,38 @@ const styles = StyleSheet.create({
     // alignContent: 'flex-start',
     // alignSelf: 'flex-start',
     // textAlign: 'left',
+  },
+  enterBtnText: {
+    color: palette.white,
+    fontFamily: 'Poppins-Regular',
+    fontSize: wp(2.8),
+    alignSelf: 'center',
+  },
+  enterBtnContainer: {
+    backgroundColor: palette.secondary,
+    paddingVertical: wp(0.6),
+    alignSelf: 'center',
+    paddingHorizontal: wp(2.5),
+    borderRadius: hp(1),
+  },
+  emptyText: {
+    fontFamily: 'Poppins-SemiBold',
+    color: palette.white,
+    fontSize: wp(4),
+    alignSelf: 'center',
+    marginTop: -hp(8),
+  },
+  emptyContent: {
+    fontFamily: 'Poppins-Regular',
+    color: palette.grey,
+    fontSize: wp(3.3),
+    // width: wp(85),
+    alignSelf: 'center',
+    marginTop: hp(-5),
+    lineHeight: 20,
+    letterSpacing: 0.5,
+    // textAlign: 'center',
+    marginLeft: hp(-6),
   },
 });
 

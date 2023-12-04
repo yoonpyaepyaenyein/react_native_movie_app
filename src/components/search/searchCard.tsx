@@ -7,11 +7,20 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 
-const SearchCard = ({data}: any) => {
+const SearchCard = (props: any) => {
+  const handlePress = () => {
+    // Call the goDetailAction prop with the data when TouchableOpacity is pressed
+    props.goDetailAction(props.data);
+  };
   return (
-    <TouchableOpacity style={styles.searchListContainer} activeOpacity={0.8}>
+    <TouchableOpacity
+      style={styles.searchListContainer}
+      activeOpacity={0.8}
+      onPress={handlePress}>
       <Image
-        source={require('@assets/images/poster.jpg')}
+        source={{
+          uri: `https://image.tmdb.org/t/p/w500/${props.data.poster_path}`,
+        }}
         style={styles.image}
       />
       <View
@@ -20,8 +29,8 @@ const SearchCard = ({data}: any) => {
           width: wp(40),
           paddingVertical: hp(2),
         }}>
-        <Text style={styles.movieTitle}>{data.title}</Text>
-        <Text style={styles.movieInfo}>{data.title}</Text>
+        <Text style={styles.movieTitle}>{props.data.original_title}</Text>
+        {/* <Text style={styles.movieInfo}>{data.title}</Text> */}
       </View>
       <View style={styles.iconContainer}>
         <ForwardIcon width={wp(2)} height={wp(5)} />

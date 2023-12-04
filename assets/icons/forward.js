@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Svg, {Path, G} from 'react-native-svg';
-import {palette} from '../../src/theme/colors';
+import {palette} from '../../src/utils/theme/colors';
 
 const ForwardIcon = props => (
   <Svg

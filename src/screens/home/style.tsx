@@ -3,7 +3,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import {palette} from '../../theme/colors';
+import {palette} from '../../utils/theme/colors';
 
 const styles = StyleSheet.create({
   container: {
@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: wp(4),
     fontFamily: 'Poppins-Regular',
+    color: palette.white,
   },
   headeRowContainer: {
     flexDirection: 'row',
@@ -23,6 +24,7 @@ const styles = StyleSheet.create({
   subHeaderTitle: {
     fontSize: wp(5),
     fontFamily: 'Poppins-Regular',
+    color: palette.white,
   },
   subRowContainer: {
     // flexDirection: 'row',
@@ -37,6 +39,10 @@ const styles = StyleSheet.create({
   },
   contentContainer: {
     paddingTop: hp(3),
+  },
+  estimatedListSize: {
+    width: wp(38), // Specify the width of the image
+    height: hp(50),
   },
 });
 
