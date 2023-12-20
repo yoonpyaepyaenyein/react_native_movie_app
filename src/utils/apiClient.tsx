@@ -8,7 +8,7 @@ export async function fetchGet({route}: {route: string}) {
       headers: {
         accept: 'application/json',
         Authorization:
-          'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNjM3ZTk2YTc3NjljYWM4NmMxZmZjMzU5Y2ExYjkyMSIsInN1YiI6IjY1MDdmNzFlM2NkMTJjMDE0ZWJmY2ZkMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.QvcnXKgIWKaA6YBD1QMx4P-VPH8jUROqEm-eM6tMaMM ',
+          'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2MjVhM2NiMjkxZmM4ZWI0ZjBhZmE3YjNkOGM5M2JhNiIsInN1YiI6IjY1NjZiMGE4ODlkOTdmMDBjNDM2MzFmYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ChIwxdFU3GA90m6gyR9spxHtrvRijJOdt4HRutxCneQ',
       },
     });
 
@@ -42,7 +42,7 @@ export async function fetchGetDetail(
         headers: {
           accept: 'application/json',
           Authorization:
-            'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNjM3ZTk2YTc3NjljYWM4NmMxZmZjMzU5Y2ExYjkyMSIsInN1YiI6IjY1MDdmNzFlM2NkMTJjMDE0ZWJmY2ZkMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.QvcnXKgIWKaA6YBD1QMx4P-VPH8jUROqEm-eM6tMaMM ',
+            'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2MjVhM2NiMjkxZmM4ZWI0ZjBhZmE3YjNkOGM5M2JhNiIsInN1YiI6IjY1NjZiMGE4ODlkOTdmMDBjNDM2MzFmYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ChIwxdFU3GA90m6gyR9spxHtrvRijJOdt4HRutxCneQ',
         },
       },
     );
