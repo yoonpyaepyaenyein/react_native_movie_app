@@ -53,7 +53,7 @@ export default function SearchDetailScreen({route, navigation}: any) {
       const updatedList = favoriteList.filter(movie => movie.id !== item.id);
       setFavoriteList(updatedList);
       Toast.showWithGravity('Successfully Removed.', Toast.SHORT, Toast.CENTER);
-      console.log('___________', favoriteList.length);
+      // console.log('___________', favoriteList.length);
     } else {
       setFavoriteList([...favoriteList, item]);
       Toast.showWithGravity('Successfully Added.', Toast.SHORT, Toast.CENTER);
