@@ -6,7 +6,7 @@ export const usePushy = () => {
   useEffect(() => {
     Pushy.register()
       .then(async deviceToken => {
-        console.log('pushy token', deviceToken);
+        // console.log('pushy token', deviceToken);
       })
       .catch(err => {
         console.error('Pushy Register Errors : ' + err);
