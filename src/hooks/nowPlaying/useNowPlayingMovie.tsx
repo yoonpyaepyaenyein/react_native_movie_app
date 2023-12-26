@@ -13,7 +13,7 @@ export const useNowPlayingMovie = () => {
         query: `?language=en-US&page=1`,
       },
     );
-    console.log('TS_________>>', response.results);
+    // console.log('TS_________>>', response.results);
     return response;
   };
   return useQuery(['nowPlayingMovie'], fetchNowPlayingMovie);

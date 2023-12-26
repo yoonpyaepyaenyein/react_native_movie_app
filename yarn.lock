@@ -1692,9 +1692,9 @@
     semver "^7.5.2"
 
 "@react-native-community/netinfo@^11.1.1":
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-11.1.1.tgz#b25cb1547a0067460c48c5973ac280c531e59c3b"
-  integrity sha512-AoIcGL7WeXobSxMUz0ukXXCaQgIReR3xLfZJ/GTd3HN/iceuN6UvqAddfjxgqQWMcb6t2SfrjQnbUPfvattp/A==
+  version "11.2.1"
+  resolved "https://registry.npmjs.org/@react-native-community/netinfo/-/netinfo-11.2.1.tgz"
+  integrity sha512-n9kgmH7vLaU7Cdo8vGfJGGwhrlgppaOSq5zKj9I7H4k5iRM3aNtwURw83mgrc22Ip7nSye2afZV2xDiIyvHttQ==
 
 "@react-native/assets-registry@^0.72.0":
   version "0.72.0"
@@ -1951,6 +1951,11 @@
   dependencies:
     "@types/react" "*"
     "@types/react-native" "*"
+
+"@types/react-native-push-notification@^8.1.4":
+  version "8.1.4"
+  resolved "https://registry.npmjs.org/@types/react-native-push-notification/-/react-native-push-notification-8.1.4.tgz"
+  integrity sha512-qXu/NcQ7YSk5ZveDMNKFBQkLt9W5FCde3be+h8fYbEnmvd5O+v5m318XGhh8AMPXURAV9pSB5Ads08Wc0KTS7A==
 
 "@types/react-native@*":
   version "0.72.7"
@@ -3604,7 +3609,7 @@ fs.realpath@^1.0.0:
 
 fsevents@^2.3.2:
   version "2.3.3"
-  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 function-bind@^1.1.1, function-bind@^1.1.2:
@@ -5678,6 +5683,11 @@ pure-rand@^6.0.0:
   resolved "https://registry.npmjs.org/pure-rand/-/pure-rand-6.0.4.tgz"
   integrity sha512-LA0Y9kxMYv47GIPJy6MI84fqTd2HmYZI83W/kM/SkKfDlajnZYfmXFTxkbY+xSBPkLJxltMa9hIkmdc29eguMA==
 
+pushy-react-native@^1.0.33:
+  version "1.0.33"
+  resolved "https://registry.yarnpkg.com/pushy-react-native/-/pushy-react-native-1.0.33.tgz#a8065a38c3dc17b59ba6978734918465c4c6c8ab"
+  integrity sha512-gtRTfdzaEM3xj5qSBZhV2hI/FwTo5sm7/9mTTWIa1G1CpFBa1dkEtZsUpWx3BV+fTDH1c92ELn2WPCJBU2/Z7g==
+
 query-string@^7.1.3:
   version "7.1.3"
   resolved "https://registry.npmjs.org/query-string/-/query-string-7.1.3.tgz"
@@ -5755,6 +5765,11 @@ react-native-mmkv@^2.11.0:
   resolved "https://registry.npmjs.org/react-native-mmkv/-/react-native-mmkv-2.11.0.tgz"
   integrity sha512-28PdUHjZJmAw3q+8zJDAAdohnZMpDC7WgRUJxACOMkcmJeqS3u5cKS/lSq2bhf1CvaeIiHYHUWiyatUjMRCDQQ==
 
+react-native-push-notification@^8.1.1:
+  version "8.1.1"
+  resolved "https://registry.npmjs.org/react-native-push-notification/-/react-native-push-notification-8.1.1.tgz"
+  integrity sha512-XpBtG/w+a6WXTxu6l1dNYyTiHnbgnvjoc3KxPTxYkaIABRmvuJZkFxqruyGvfCw7ELAlZEAJO+dthdTabCe1XA==
+
 react-native-responsive-screen@^1.4.2:
   version "1.4.2"
   resolved "https://registry.npmjs.org/react-native-responsive-screen/-/react-native-responsive-screen-1.4.2.tgz"
@@ -5774,13 +5789,13 @@ react-native-screens@^3.27.0:
     warn-once "^0.1.0"
 
 react-native-simple-toast@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/react-native-simple-toast/-/react-native-simple-toast-3.1.0.tgz#c9c2cc666803a74c690b274d4faa107283c228c1"
-  integrity sha512-7gy7nfMLmUUEHby8x8g0v+0cMbEC5L7nUiS3s8Qf7yK+jJRI8PVwniRMVICyeuczfAgRWGkvZb/CVqb4SYNpzA==
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/react-native-simple-toast/-/react-native-simple-toast-3.2.0.tgz"
+  integrity sha512-aiv162Zr4fRAy1RY6fjrl3zZV1DVQJhvKAoS7d+Vylm7SgYEnt/MKrQcXDT21SVmunONvKx7KpDylzfSpgnDPw==
 
 react-native-splash-screen@^3.3.0:
   version "3.3.0"
-  resolved "https://registry.yarnpkg.com/react-native-splash-screen/-/react-native-splash-screen-3.3.0.tgz#3af71ed17afe50fee69590a45aec399d071ead02"
+  resolved "https://registry.npmjs.org/react-native-splash-screen/-/react-native-splash-screen-3.3.0.tgz"
   integrity sha512-rGjt6HkoSXxMqH4SQUJ1gnPQlPJV8+J47+4yhgTIan4bVvAwJhEeJH7wWt9hXSdH4+VfwTS0GTaflj1Tw83IhA==
 
 react-native-svg@^14.0.0:

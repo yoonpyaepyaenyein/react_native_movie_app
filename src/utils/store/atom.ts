@@ -6,6 +6,7 @@ export const favoriteMovieListAtom = atomWithMMKVStorage(
   '@favoriteMovie',
   <PopularMovieResult[]>[],
 );
+export const pushyTokenAtom = atomWithMMKVStorage('@pushyToken', '');
 
 //normal atoms
 export const isLoadingAtom = atom(true);

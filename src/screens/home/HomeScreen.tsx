@@ -51,7 +51,7 @@ const HomeScreen = ({navigation}: any) => {
 
   useEffect(() => {
     if (nowPlayingSuccess) {
-      console.log('NPRD_______', nowPlayingResponseData);
+      // console.log('NPRD_______', nowPlayingResponseData);
     } else if (nowPlayingError) {
       console.log('NPRD ERROR');
     }
