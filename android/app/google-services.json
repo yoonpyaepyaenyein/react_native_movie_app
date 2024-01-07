@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "739604346645",
+    "project_id": "cineplus-bc6d4",
+    "storage_bucket": "cineplus-bc6d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739604346645:android:9b2942d6afc5ff722f5b1c",
+        "android_client_info": {
+          "package_name": "com.movie_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpgBQ5qg0wrdFWoBSP_fZufYuN2jQZ7L4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
